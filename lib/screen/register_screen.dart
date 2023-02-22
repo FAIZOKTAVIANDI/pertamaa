@@ -30,7 +30,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
+      body: Container(
+        color: Color.fromARGB(255, 241, 204, 147),
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
